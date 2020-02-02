@@ -1,0 +1,12 @@
+.Footer{
+    position: relative;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #132d67;
+    color: white;
+    display: grid;
+    align-items: center;
+
+
+}

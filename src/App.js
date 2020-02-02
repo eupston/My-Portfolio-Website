@@ -5,18 +5,10 @@ import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   state = {  }
-
-
-
-//   componentWillUnmount() {
-//     window.removeEventListener('scroll', this.handleStickyNavbar);
-// }
-
-
-
   render() { 
     return ( 
       <div className="App">
@@ -25,6 +17,7 @@ class App extends Component {
         <About/>
         <Portfolio/>
         <Contact/>
+        <Footer/>
       </div>
      );
   }
