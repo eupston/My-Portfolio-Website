@@ -1,0 +1,44 @@
+.Contact {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    min-height: 98vh;
+    background-color: #F5F5F5;
+    background-image: url(../../assets/gifs/cyberpunk7.gif);
+    background-size: cover;
+    background-position: center;
+    color: #F5F5F5;
+
+}
+.Contact h1 {
+    margin-top: 90px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Contact h1:before,
+.Contact h1:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+}
+
+.Contact h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.Contact h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.Form{
+    width: 30%;
+    align-self: center;
+    justify-self: center;
+}

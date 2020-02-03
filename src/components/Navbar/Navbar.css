@@ -1,0 +1,22 @@
+.NavbarCustom{
+    background-color: #132d67;
+    border-bottom: 2px solid #b25364;
+    z-index: 100;
+
+}
+
+.NavbarCustom a:hover {
+    color: #b25364;
+
+}
+
+.NavbarCustom a {
+    color: white;
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+.Barchart{
+    height:80%;
+    width: 95%;
+    margin-top: 50px;
+    align-self: end;
+    justify-self: center;
+}
+
+.Buttons {
+    width: 40%;
+    margin: 1px 1px ;
+}
+
+.btn-outline-custom {
+    color: #b25364;
+    border-color: #b25364;
+}
+
+.btn-outline-custom.active{
+    color: white;
+    background-color: #b25364;
+}
+.btn-outline-custom:hover{
+    color: white;
+    background-color: #b25364;
+}

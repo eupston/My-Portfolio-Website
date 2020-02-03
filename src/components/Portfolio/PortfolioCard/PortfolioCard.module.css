@@ -1,0 +1,58 @@
+.Portfoliocard {
+    width: 380px;
+    height: 360px;
+    text-align: center;
+    box-shadow:  0 5px 15px grey;
+    display: grid;
+    margin: 20px;
+
+
+}
+.Portfoliocard:hover{
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.Portfoliocard h6{
+    color: #b25364;
+}
+
+.Portfoliocard h3{
+    color: #132d67;
+}
+
+.Button{
+    width: 40%;
+    height: 25%;
+    align-self: center;
+    justify-self: center;
+}
+
+.Titles{
+    align-self: end;
+    justify-self: center;
+
+}
+
+.Image {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.fadein {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.8s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

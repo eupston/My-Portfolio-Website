@@ -1,0 +1,13 @@
+.Aboutcard {
+}
+
+.Circle{
+    background: #b25364;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 50px 80px 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

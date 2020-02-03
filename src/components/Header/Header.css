@@ -1,0 +1,48 @@
+.Header {
+    text-align: center;
+  }
+  
+  .Header header {
+    color: white;
+    vertical-align: center;
+    background-image: url(../../assets/gifs/cyberpunk7.gif);
+    background-size: cover;
+    background-position: top;
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 50% 5% 20% 10%;
+  }
+  
+  .Header h1{
+    align-self: end;
+    margin: 0 auto;
+    /* box-shadow: 0 0rem 2rem rgba(0,0,0, 0.25); */
+  
+  }
+  
+  .Header h5{
+    margin: 5px auto;
+    /* box-shadow: 0 0rem 2rem rgba(0,0,0, 0.25); */
+  
+  }
+  
+  .logo {
+    margin: 15px auto;
+    align-self: start;
+  }
+  
+  .Header button{ 
+    height: 40px;
+    width: 120px;
+    align-self: start;
+    justify-self: center;
+    border-radius: 30px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.25);
+    font-size: medium;
+  
+   }
+  
+  .Header button:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.21);
+  }

@@ -1,6 +1,10 @@
 .App{
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: "Raleway", "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 	text-align: center;
+	/* position: relative; */
+	display: grid;
+	max-width: 100%;
+
 }
 
 html {
