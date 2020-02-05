@@ -50,11 +50,13 @@ const About = () => {
                 <div className={classes.ImageDescription} >
                     <Image src={ProfilePic} roundedCircle fluid />
                     <div style={{margin:'20px'}}>
-                    <h4>Eugene Upston</h4>
-                    <p> is a driven self-taught programmer currently working as a Pipeline Software Developer for an AI company Soul Machines.</p> 
+                    <h4><strong>Eugene Upston</strong></h4>
+                    <p> is a driven <a style={{color:"#b25364"}}>self-taught</a> programmer 
+                    currently working as a Pipeline Software Developer for 
+                    an AI company <a style={{color:"#b25364"}}>Soul Machines.</a></p> 
                     </div>
                 </div>
-                <Barchart />
+                <Barchart/>
             </div>
         </div>
      );

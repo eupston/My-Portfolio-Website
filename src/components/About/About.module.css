@@ -2,14 +2,13 @@
     text-align: center;
     display: grid;
     grid-template-rows: 10% 30% 50%; 
-    min-height: 160vh;
+    min-height: 150vh;
     background-color: gainsboro;
     justify-items:top;
 }
 .About h1 {
     margin-top: 90px;
     padding-bottom: 50px;
-
     overflow: hidden;
     text-align: center;
     font-weight:500;
@@ -38,7 +37,6 @@
 
 .AboutCardGrid{
     display: flex;
-    /* grid-template-columns: repeat(4, 1fr); */
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -55,7 +53,7 @@
     height: 350px;
     align-self: center;
     justify-self: center;
-    margin: 20px;
+    margin: 80px;
     border: 6px solid #b25364;
     border-radius: 50%;
 
@@ -69,5 +67,15 @@
     .ImageDescription {
         width: 250px;
         height: 250px;
+        margin: 140px;
+        margin-top:200px;
+    }
+
+    .About {
+        min-height: 100vh;
+    }
+
+    .About h1 {
+        padding-bottom: 180px;
     }
 }
