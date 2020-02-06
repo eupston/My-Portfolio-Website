@@ -36,7 +36,7 @@ const all_about_cards_info = [
 ];
 
 const all_about_cards = all_about_cards_info.map(card => {
-    return <Aboutcard title={card.title} subtext={card.subtext} image={card.image}/>
+    return <Aboutcard key={card.title} title={card.title} subtext={card.subtext} image={card.image}/>
 });
 
 const About = () => {

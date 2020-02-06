@@ -15,7 +15,7 @@ const portfolioCards = {
         image: deepbeat_img,
         modal_image: deepbox_gif,
         description: "Deepbeat is a crossplatform application used to convert beatboxing to midi drum information (Kick, Snare, Hihat) using a convolutional neural network trained on 1000s of beatboxing samples. It includes an audio recorder and trimmer for recording and slicing your beatboxes.",
-        tech_stack: ["Python", "Tensorflow", "Keras"],
+        tech_stack: ["Python", "Tensorflow", "Keras", "Qt"],
         github:"https://github.com/eupston/Deepbeat-beatbox2midi",
         youtube: "https://www.youtube.com/watch?v=qxeina_3zQA&t=108s"
     },
@@ -25,7 +25,7 @@ const portfolioCards = {
         image: deepbox_img,
         modal_image: deepbox_gif,
         description: "Deepbox is an audio plugin that uses a convolutional neural network to classify and predict beatboxes in realtime. You can then create a midi file from the plugin with the corresponding beats.",
-        tech_stack: ["C++", "Juce Framework", "Python"],
+        tech_stack: ["C++", "Juce Framework", "Python", "Keras"],
         github:"https://github.com/eupston/Deepbox",
         youtube: "https://www.youtube.com/watch?v=F6jA0xNGhSM&t=193s"
     },

@@ -7,6 +7,31 @@
     color: white;
     display: grid;
     align-items: center;
+    justify-items: center;
+    min-height: 40vh;
+}
 
+.FooterSocialMediaItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FooterSocialMediaItems a {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16)
+
+}
+
+.Footer hr {
+    width:25%;
+    /* height:5%; */
+    /* padding:0px;
+    margin:0px; */
+    border-top: 1px solid white;
 
 }

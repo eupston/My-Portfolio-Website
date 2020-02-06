@@ -22,11 +22,17 @@ class PortfolioCard extends Component {
         this.setState({learnMore: true});
     }
 
+    handleModalHide = () => {
+        this.setState({learnMore:false});
+        this.setState({isHovered: false});
+    }
+
     render() { 
         return ( 
             <div className={classes.Portfoliocard} 
             onMouseOver={this.handleOnHover}
             onMouseLeave={this.handleOffHover}
+            id={this.props.projectInfo.projectName}
             >
                 {this.state.isHovered ? 
                 <React.Fragment>
@@ -48,7 +54,7 @@ class PortfolioCard extends Component {
                     <PortfolioModal 
                     projectInfo={this.props.projectInfo} 
                     show={this.state.learnMore}
-                    onHide={() => this.setState({learnMore:false})}/> 
+                    onHide={this.handleModalHide}/> 
                 :null
                 }
             </div>

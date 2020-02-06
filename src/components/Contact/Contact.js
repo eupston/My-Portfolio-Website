@@ -7,23 +7,17 @@ const Contact = () => {
     return (
         <div className={classes.Contact} id="contact" >
             <h1>Contact</h1>
-
-            <Form className={classes.Form}>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-
-                <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
+            <div className={classes.FormContainer}>
+                <div className={classes.FormItems}>
+                    <input placeholder="Name" type="text" name="name" required/>
+                    <input placeholder="Email" type="email" name="email" required/>
+                    {/* <Form.Group controlId="formBasicName">
+                        <Form.Control type="name" placeholder="Name" />
+                    </Form.Group> */}
+                    <textarea rows="4" cols="50" placeholder="Your Message"></textarea>
+                </div>
+                <Button variant="outline-light">Submit</Button>
+            </div>
         </div>
      );
 }

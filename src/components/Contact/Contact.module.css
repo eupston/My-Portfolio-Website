@@ -2,18 +2,21 @@
     text-align: center;
     display: grid;
     grid-template-rows: 20% 80%;
-    min-height: 98vh;
+    min-height: 100vh;
     background-color: #F5F5F5;
     background-image: url(../../assets/gifs/cyberpunk7.gif);
     background-size: cover;
     background-position: center;
     color: #F5F5F5;
 
+
 }
 .Contact h1 {
     margin-top: 90px;
     overflow: hidden;
     text-align: center;
+    padding-bottom: 50px;
+
 }
 
 .Contact h1:before,
@@ -36,9 +39,33 @@
     left: 0.5em;
     margin-right: -50%;
 }
-
-.Form{
+.FormContainer{
     width: 30%;
+    height: 60%;
+    background-color: #132d67;
+    /* display: flex; */
     align-self: center;
     justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .FormItems input{
+    width:100%; */
+/* } */
+
+.Contact button{ 
+    height: 50px;
+    width: 170px;
+    align-self: start;
+    justify-self: center;
+    border-radius: 30px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.25);
+    font-size: medium;
+  
+}
+
+.Contact button:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.21);
 }

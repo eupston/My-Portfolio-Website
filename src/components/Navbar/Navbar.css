@@ -2,13 +2,22 @@
     background-color: #132d67;
     border-bottom: 2px solid #b25364;
     z-index: 100;
-
+    display: flex;
+}
+.NavbarCustom a {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .NavbarCustom a:hover {
     color: #b25364;
 
 }
+
+.nav-link.active {
+    color: #b25364;
+}
+  
 
 .NavbarCustom a {
     color: white;
@@ -19,4 +28,7 @@
   position: sticky;
   top: 0;
   width: 100%;
+  opacity: 0.9;
 }
+
+

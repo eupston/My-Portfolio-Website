@@ -16,13 +16,12 @@
   .Header h1{
     align-self: end;
     margin: 0 auto;
-    /* box-shadow: 0 0rem 2rem rgba(0,0,0, 0.25); */
+    font-size: 60px;
   
   }
   
   .Header h5{
     margin: 5px auto;
-    /* box-shadow: 0 0rem 2rem rgba(0,0,0, 0.25); */
   
   }
   

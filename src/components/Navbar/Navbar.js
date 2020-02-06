@@ -4,22 +4,40 @@ import Nav from 'react-bootstrap/Nav';
 import './Navbar.css'
 
 class StickyNavbar extends Component {
-    state = {  }
+
+    state = {
+          pageIds : ["home", "about", "portfolio", "contact"],
+          currently_active: null
+     }
+
     handleStickyNavbar = () => {
+      const currently_active = this.state.currently_active;
+      this.state.pageIds.forEach(item => {
+        const pageItemElement = document.getElementById(item);
+        const navItemElement = document.getElementById("navbar_" + item);
+        const page_position = pageItemElement.getBoundingClientRect().top;
+        if(-20 <= page_position && page_position <= 20 ){
+            navItemElement.classList.add("active");
+            this.setState({currently_active: item});
+        }
+        else if (item !== currently_active) {
+          navItemElement.classList.remove('active');
+        }
+      });
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
-
         if (window.pageYOffset >= sticky) {
           navbar.classList.add("sticky")
         } 
         else {
           navbar.classList.remove("sticky");
-
         }
       }
     
       componentDidMount(){
         window.addEventListener('scroll', this.handleStickyNavbar);
+        var navbarHome = document.getElementById("navbar_home");
+        navbarHome.classList.add("active");
       }
 
       componentWillUnmount(){
@@ -30,10 +48,10 @@ class StickyNavbar extends Component {
         return ( 
         <nav className="NavbarCustom navbar navbar-expand" id="navbar">
             <div className="navbar-nav">
-                <a href="#home" className="nav-link" id="home">Home</a>
-                <a href="#about" className="nav-link">About</a>
-                <a href="#portfolio" className="nav-link">Portfolio</a>
-                <a href="#contact" className="nav-link">Contact</a>
+                <a href="#home" className="nav-link" id="navbar_home">Home</a>
+                <a href="#about" className="nav-link" id="navbar_about">About</a>
+                <a href="#portfolio" className="nav-link" id="navbar_portfolio">Portfolio</a>
+                <a href="#contact" className="nav-link" id="navbar_contact" >Contact</a>
             </div>
         </nav>
 
@@ -43,36 +61,3 @@ class StickyNavbar extends Component {
 }
  
 export default StickyNavbar;
-
-
-// const navbar = () => {
-    
-//     return ( 
-//         <nav class="NavbarCustom navbar navbar-expand" id="navbar">
-//             <div class="navbar-nav ">
-//                 <a href="#home" class="nav-link" id="home">Home</a>
-//                 <a href="#about" class="nav-link">About</a>
-//                 <a href="#portfolio" class="nav-link">Portfolio</a>
-//                 <a href="#contact" class="nav-link">Contact</a>
-//             </div>
-//         </nav>
-
-// // // mobile hamburger code 
-// // <div class="pos-f-t">
-// //   <div class="collapse" id="navbarToggleExternalContent">
-// //     <div class="bg-dark p-4">
-// //       <h4 class="text-white">Collapsed content</h4>
-// //       <span class="text-muted">Toggleable via the navbar brand.</span>
-// //     </div>
-// //   </div>
-// //   <nav class="navbar navbar-dark bg-dark">
-// //     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-// //       <span class="navbar-toggler-icon"></span>
-// //     </button>
-// //   </nav>
-// // </div>
-
-//      );
-// }
- 
-// export default navbar;
