@@ -11,10 +11,7 @@ const Contact = () => {
                 <div className={classes.FormItems}>
                     <input placeholder="Name" type="text" name="name" required/>
                     <input placeholder="Email" type="email" name="email" required/>
-                    {/* <Form.Group controlId="formBasicName">
-                        <Form.Control type="name" placeholder="Name" />
-                    </Form.Group> */}
-                    <textarea rows="4" cols="50" placeholder="Your Message"></textarea>
+                    <textarea rows="8" cols="50" placeholder="Your Message"></textarea>
                 </div>
                 <Button variant="outline-light">Submit</Button>
             </div>

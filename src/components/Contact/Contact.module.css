@@ -40,19 +40,50 @@
     margin-right: -50%;
 }
 .FormContainer{
-    width: 30%;
+    width: 45%;
     height: 60%;
-    background-color: #132d67;
-    /* display: flex; */
     align-self: center;
     justify-self: center;
     justify-content: center;
     align-items: center;
 }
 
-/* .FormItems input{
-    width:100%; */
-/* } */
+.FormItems input{
+    width:100%;
+    background-color: #4c6ca2;
+    border: 3px solid #132d67;
+    color: white;
+    margin: 1px;
+
+
+}
+
+.FormItems input::placeholder {
+    color: white;
+    padding-left: 5px;
+}
+
+.FormItems input:focus {
+    border: 3px solid #b25364;
+}
+
+
+.FormItems textarea{
+    width:100%;
+    background-color: #4c6ca2;
+    color: white;
+    border: 3px solid #132d67;
+    margin: 1px;
+}
+
+.FormItems textarea::placeholder {
+    color: white;
+    padding-left: 5px;
+}
+
+.FormItems textarea:focus {
+    border: 3px solid #b25364;
+}
 
 .Contact button{ 
     height: 50px;
