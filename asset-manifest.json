@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ea85eed.chunk.css",
+    "main.js": "/static/js/main.8ff8888f.chunk.js",
+    "main.js.map": "/static/js/main.8ff8888f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b645daae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b645daae.js.map",
+    "static/css/2.a98a96af.chunk.css": "/static/css/2.a98a96af.chunk.css",
+    "static/js/2.8e91086b.chunk.js": "/static/js/2.8e91086b.chunk.js",
+    "static/js/2.8e91086b.chunk.js.map": "/static/js/2.8e91086b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0b8fc89cb6297439df316c8e366c759b.js": "/precache-manifest.0b8fc89cb6297439df316c8e366c759b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a98a96af.chunk.css.map": "/static/css/2.a98a96af.chunk.css.map",
+    "static/css/main.8ea85eed.chunk.css.map": "/static/css/main.8ea85eed.chunk.css.map",
+    "static/js/2.8e91086b.chunk.js.LICENSE": "/static/js/2.8e91086b.chunk.js.LICENSE",
+    "static/media/Deepbox_img_1.png": "/static/media/Deepbox_img_1.05177358.png",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/Header.css": "/static/media/cyberpunk7.b19ffbe2.gif",
+    "static/media/deepbeat_interface.png": "/static/media/deepbeat_interface.45abed6c.png",
+    "static/media/deepbox.gif": "/static/media/deepbox.52a83dc4.gif",
+    "static/media/eug_logo.png": "/static/media/eug_logo.03fc768f.png",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f6121be5.woff2",
+    "static/media/profile_pic.png": "/static/media/profile_pic.63580b13.png",
+    "static/media/spotistics_screenshot.png": "/static/media/spotistics_screenshot.d53d03bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b645daae.js",
+    "static/css/2.a98a96af.chunk.css",
+    "static/js/2.8e91086b.chunk.js",
+    "static/css/main.8ea85eed.chunk.css",
+    "static/js/main.8ff8888f.chunk.js"
+  ]
+}
