@@ -58,6 +58,10 @@
     border-radius: 50%;
 
 }
+.ImageDescription p{
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 @media(max-width: 1000px){
     .AboutGrid{

@@ -98,7 +98,7 @@ class BarChart extends Component {
             <ResponsiveBar
                 data={this.state.currentData}
                 indexBy="skill"
-                margin={{ top: 0, right: 130, bottom: 50, left: 60 }}
+                margin={{ top: 0, right: 130, bottom: 50, left: 70 }}
                 padding={0.19}
                 layout="horizontal"
                 colors = {this.state.currentData.map(c => c.color)}

@@ -52,8 +52,8 @@ const About = () => {
                     <div style={{margin:'20px'}}>
                     <h4><strong>Eugene Upston</strong></h4>
                     <p> is a driven <a style={{color:"#b25364"}}>self-taught</a> programmer 
-                    currently working as a Pipeline Software Developer for 
-                    an AI company <a style={{color:"#b25364"}}>Soul Machines.</a></p> 
+                    currently working as a Software Pipeline Developer for
+                    an AI company <a href="https://www.soulmachines.com/" alt="" style={{color:"#b25364"}}>Soul Machines.</a></p>
                     </div>
                 </div>
                 <Barchart/>

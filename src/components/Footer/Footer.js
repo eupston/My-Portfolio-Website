@@ -17,7 +17,7 @@ const Footer = () => {
            <SocialMediaIconsReact  borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(76,107,162,1)" iconSize="3" roundness="10%" url={"https://www.linkedin.com/in/eugene-upston/"} size="40" />
            </div>
            <hr></hr>
-           <p>Site by <a href="https://github.com/eupston/My-Portfolio-Website" alt="/">Eugene Upston </a></p>
+           <p>Site by <a href="https://github.com/eupston/Portfolio" alt="/">Eugene Upston</a></p>
         </div>
 
     );

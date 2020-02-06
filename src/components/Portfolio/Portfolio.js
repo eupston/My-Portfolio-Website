@@ -4,7 +4,9 @@ import PortfolioCard from './PortfolioCard/PortfolioCard';
 import deepbeat_img from '../../assets/images/projects/deepbeat_interface.png';
 import deepbox_img from '../../assets/images/projects/Deepbox_img_1.png';
 import spotistics_img from '../../assets/images/projects/spotistics_screenshot.png';
-import deepbox_gif from '../../assets/gifs/deepbox.gif';
+import deepbox_gif from '../../assets/gifs/deepbox_gif.gif';
+import deepbeat_gif from '../../assets/gifs/deepbeat_gif.gif';
+import spotistics_gif from '../../assets/gifs/spotistics_gif.gif';
 
 
 
@@ -13,7 +15,7 @@ const portfolioCards = {
         projectName: 'Deepbeat',
         languages: 'Python',
         image: deepbeat_img,
-        modal_image: deepbox_gif,
+        modal_image: deepbeat_gif,
         description: "Deepbeat is a crossplatform application used to convert beatboxing to midi drum information (Kick, Snare, Hihat) using a convolutional neural network trained on 1000s of beatboxing samples. It includes an audio recorder and trimmer for recording and slicing your beatboxes.",
         tech_stack: ["Python", "Tensorflow", "Keras", "Qt"],
         github:"https://github.com/eupston/Deepbeat-beatbox2midi",
@@ -33,7 +35,7 @@ const portfolioCards = {
         projectName: 'Spotistics',
         languages: 'React/Springboot',
         image: spotistics_img,
-        modal_image: deepbox_gif,
+        modal_image: spotistics_gif,
         description: "Spotistics is a web app for viewing artist spotify statistics. At present you can view audio features for any spotify artist for any of their top tracks",
         tech_stack: ["Spring Boot",
             "Spring Rest",
