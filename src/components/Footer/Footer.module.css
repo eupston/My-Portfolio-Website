@@ -33,10 +33,18 @@
 
 }
 
-
-@media(max-width: 750px){
+@media(max-height: 600px) and (orientation: landscape) {
     .Footer{
         min-height: 75vh;
+
+    }
+}
+
+
+@media(max-width: 550px){
+    .Footer{
+        min-height: 45vh;
+
     }
 
 }

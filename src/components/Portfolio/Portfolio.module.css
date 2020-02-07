@@ -36,17 +36,20 @@
 
 .PortfolioGrid{
     display: flex;
-    /* grid-template-columns: repeat(3, 33%); */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
 }
 
-@media(max-width: 500px){
+@media(max-width: 1024px){
     .PortfolioGrid{
         grid-template-columns: repeat(1, 1fr); 
     
+    }
+
+    .Portfolio h1 {
+        padding-bottom: 150px;
     }
 
 }

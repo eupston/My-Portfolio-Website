@@ -8,7 +8,7 @@
     background-image: url(../../assets/gifs/cyberpunk7.gif);
     background-size: cover;
     background-position: top;
-    height: 98vh;
+    height: 100vh;
     display: grid;
     grid-template-rows: 50% 5% 20% 10%;
   }
@@ -45,3 +45,12 @@
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.21);
   }
+
+
+@media(max-width: 450px){
+  .Header header{
+    min-height: 140vh;
+
+  }
+
+}
