@@ -56,3 +56,12 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 450px) {
+    .Button{
+        width: 45%;
+        height: 30%;
+
+    }
+
+}
