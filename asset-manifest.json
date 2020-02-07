@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fd3857b0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.53adb365.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.53adb365.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.2d99c7a1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.12ff2bc9.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.12ff2bc9.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.8dc3805d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8dc3805d.js.map",
-    "static/css/2.c21e17df.chunk.css": "/Portfolio/static/css/2.c21e17df.chunk.css",
-    "static/js/2.0515f2b2.chunk.js": "/Portfolio/static/js/2.0515f2b2.chunk.js",
-    "static/js/2.0515f2b2.chunk.js.map": "/Portfolio/static/js/2.0515f2b2.chunk.js.map",
+    "static/css/2.c1e42f80.chunk.css": "/Portfolio/static/css/2.c1e42f80.chunk.css",
+    "static/js/2.c61afe33.chunk.js": "/Portfolio/static/js/2.c61afe33.chunk.js",
+    "static/js/2.c61afe33.chunk.js.map": "/Portfolio/static/js/2.c61afe33.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.5d82bb2922469d353447508d38db947f.js": "/Portfolio/precache-manifest.5d82bb2922469d353447508d38db947f.js",
+    "precache-manifest.234fcf08218fa919bb930c278fea8a12.js": "/Portfolio/precache-manifest.234fcf08218fa919bb930c278fea8a12.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.c21e17df.chunk.css.map": "/Portfolio/static/css/2.c21e17df.chunk.css.map",
-    "static/css/main.fd3857b0.chunk.css.map": "/Portfolio/static/css/main.fd3857b0.chunk.css.map",
-    "static/js/2.0515f2b2.chunk.js.LICENSE": "/Portfolio/static/js/2.0515f2b2.chunk.js.LICENSE",
+    "static/css/2.c1e42f80.chunk.css.map": "/Portfolio/static/css/2.c1e42f80.chunk.css.map",
+    "static/css/main.2d99c7a1.chunk.css.map": "/Portfolio/static/css/main.2d99c7a1.chunk.css.map",
+    "static/js/2.c61afe33.chunk.js.LICENSE": "/Portfolio/static/js/2.c61afe33.chunk.js.LICENSE",
     "static/media/Deepbox_img_1.png": "/Portfolio/static/media/Deepbox_img_1.05177358.png",
     "static/media/mdb.css": "/Portfolio/static/media/arrow_right.8ef6a08c.svg",
     "static/media/Header.css": "/Portfolio/static/media/cyberpunk7.b19ffbe2.gif",
@@ -28,9 +28,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8dc3805d.js",
-    "static/css/2.c21e17df.chunk.css",
-    "static/js/2.0515f2b2.chunk.js",
-    "static/css/main.fd3857b0.chunk.css",
-    "static/js/main.53adb365.chunk.js"
+    "static/css/2.c1e42f80.chunk.css",
+    "static/js/2.c61afe33.chunk.js",
+    "static/css/main.2d99c7a1.chunk.css",
+    "static/js/main.12ff2bc9.chunk.js"
   ]
 }
