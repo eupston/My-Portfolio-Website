@@ -6,11 +6,11 @@ import ProfilePic from "../../assets/images/profile_pic.png";
 import Aboutcard from './Aboutcard/Aboutcard';
 
 import { mdiDatabase } from '@mdi/js';
-import { mdiDevices } from '@mdi/js';
 import { mdiResponsive } from '@mdi/js';
-import { mdiStateMachine } from '@mdi/js';
 import { mdiReact } from '@mdi/js';
 import { mdiBrain } from '@mdi/js';
+
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const all_about_cards_info = [
     {
@@ -42,10 +42,15 @@ const all_about_cards = all_about_cards_info.map(card => {
 const About = () => {
     return ( 
         <div className={classes.About} id="about" >
-            <h1>ABOUT</h1>
-            <div className={classes.AboutCardGrid}>
-                {all_about_cards}
-            </div>
+            <ScrollAnimation animateIn="slideInRight" duration="1.1" animateOnce>
+                <h1>ABOUT</h1>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="slideInLeft" duration="1.3" animateOnce>
+                <div className={classes.AboutCardGrid}>
+                    {all_about_cards}
+                </div>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="slideInRight" duration="1.3" animateOnce>
             <div className={classes.AboutGrid}>
                 <div className={classes.ImageDescription} >
                     <Image src={ProfilePic} roundedCircle fluid />
@@ -58,6 +63,8 @@ const About = () => {
                 </div>
                 <Barchart/>
             </div>
+            </ScrollAnimation>
+
         </div>
      );
 }

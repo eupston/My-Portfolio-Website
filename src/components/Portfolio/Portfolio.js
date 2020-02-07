@@ -8,6 +8,8 @@ import deepbox_gif from '../../assets/gifs/deepbox_gif.gif';
 import deepbeat_gif from '../../assets/gifs/deepbeat_gif.gif';
 import spotistics_gif from '../../assets/gifs/spotistics_gif.gif';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 const portfolioCards = {
@@ -51,18 +53,26 @@ const portfolioCards = {
 }
 
 const Portfolio = () => {
-    return ( 
+    return (
         <div className={classes.Portfolio} id='portfolio'>
-            <h1>Portfolio</h1>
+            <ScrollAnimation animateIn="slideInRight" duration="1.1" animateOnce>
+                <h1>Portfolio</h1>
+            </ScrollAnimation>
             <div className={classes.PortfolioGrid} >
-                <PortfolioCard projectInfo={portfolioCards.deepbeat}/>
-                <PortfolioCard projectInfo={portfolioCards.deepbox}
-                     />
-                <PortfolioCard projectInfo={portfolioCards.spotistics}
-                    />
+                <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
+                  <PortfolioCard projectInfo={portfolioCards.deepbeat}/>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
+                  <PortfolioCard projectInfo={portfolioCards.deepbox} />
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
+                  <PortfolioCard projectInfo={portfolioCards.spotistics}/>
+                </ScrollAnimation>
+
             </div>
         </div>
-     );
+
+    );
 }
  
 export default Portfolio;
