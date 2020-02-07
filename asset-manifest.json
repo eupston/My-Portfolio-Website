@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.16eb6177.chunk.css",
+    "main.css": "/Portfolio/static/css/main.fd3857b0.chunk.css",
     "main.js": "/Portfolio/static/js/main.53adb365.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.53adb365.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.8dc3805d.js",
@@ -9,10 +9,10 @@
     "static/js/2.0515f2b2.chunk.js": "/Portfolio/static/js/2.0515f2b2.chunk.js",
     "static/js/2.0515f2b2.chunk.js.map": "/Portfolio/static/js/2.0515f2b2.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.b0c2568b5dbaedf3de780d262918864f.js": "/Portfolio/precache-manifest.b0c2568b5dbaedf3de780d262918864f.js",
+    "precache-manifest.5d82bb2922469d353447508d38db947f.js": "/Portfolio/precache-manifest.5d82bb2922469d353447508d38db947f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.c21e17df.chunk.css.map": "/Portfolio/static/css/2.c21e17df.chunk.css.map",
-    "static/css/main.16eb6177.chunk.css.map": "/Portfolio/static/css/main.16eb6177.chunk.css.map",
+    "static/css/main.fd3857b0.chunk.css.map": "/Portfolio/static/css/main.fd3857b0.chunk.css.map",
     "static/js/2.0515f2b2.chunk.js.LICENSE": "/Portfolio/static/js/2.0515f2b2.chunk.js.LICENSE",
     "static/media/Deepbox_img_1.png": "/Portfolio/static/media/Deepbox_img_1.05177358.png",
     "static/media/mdb.css": "/Portfolio/static/media/arrow_right.8ef6a08c.svg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.8dc3805d.js",
     "static/css/2.c21e17df.chunk.css",
     "static/js/2.0515f2b2.chunk.js",
-    "static/css/main.16eb6177.chunk.css",
+    "static/css/main.fd3857b0.chunk.css",
     "static/js/main.53adb365.chunk.js"
   ]
 }
