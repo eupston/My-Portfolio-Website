@@ -1,4 +1,7 @@
 .Aboutcard {
+    display: grid;
+    justify-items: center;
+    align-content: center;
 }
 
 .Circle{
@@ -10,4 +13,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.Subtext {
+    max-width: 70%;
+}
+
+@media (max-width: 1050px) {
+    .Aboutcard {
+        max-width: 300px;
+    }
+
 }

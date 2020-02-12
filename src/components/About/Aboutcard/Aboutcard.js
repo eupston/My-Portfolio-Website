@@ -4,14 +4,16 @@ import Icon from '@mdi/react';
 
 const Aboutcard = (props) => {
     return ( 
-        <div>
+        <div className={classes.Aboutcard}>
             <div className={classes.Circle}>
                 <Icon path={props.image}
                 size={4}
                 color="white"/>
             </div>
-            <h5><b>{props.title}</b></h5>
-            <h5>{props.subtext}</h5> 
+            <h4><strong>{props.title}</strong></h4>
+            <div className={classes.Subtext}>
+                <p>{props.subtext}</p>
+            </div>
         </div>
      );
 }

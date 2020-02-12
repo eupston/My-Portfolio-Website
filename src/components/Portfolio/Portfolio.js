@@ -15,7 +15,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const portfolioCards = {
     deepbeat: {
         projectName: 'Deepbeat',
-        languages: 'Python',
+        languages: 'Python/Tensorflow',
         image: deepbeat_img,
         modal_image: deepbeat_gif,
         description: "Deepbeat is a crossplatform application used to convert beatboxing to midi drum information (Kick, Snare, Hihat) using a convolutional neural network trained on 1000s of beatboxing samples. It includes an audio recorder and trimmer for recording and slicing your beatboxes.",
@@ -25,7 +25,7 @@ const portfolioCards = {
     },
     deepbox: {
         projectName: 'Deepbox',
-        languages: 'C++',
+        languages: 'C++/Juce',
         image: deepbox_img,
         modal_image: deepbox_gif,
         description: "Deepbox is an audio plugin that uses a convolutional neural network to classify and predict beatboxes in realtime. You can then create a midi file from the plugin with the corresponding beats.",

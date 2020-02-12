@@ -38,7 +38,7 @@ class BarChart extends Component {
   frontend_skills = [
     {
       "skill": "Javascript",
-      "value": 70,
+      "value": 85,
       "color": "#b25364"
 
     },
@@ -86,6 +86,54 @@ class BarChart extends Component {
       this.setState({currentData: this.backend_skills})
     }
 
+    BarComponent = props => {
+      return (
+          <g transform={`translate(${props.x},${props.y})`}>
+              <rect
+                  x={-3}
+                  y={7}
+                  width={props.width}
+                  height={props.height}
+                  fill="rgba(0, 0, 0, .07)"
+              />
+              <rect width={props.width} height={props.height} fill={props.color} />
+              <rect
+                  x={props.width - 5}
+                  width={5}
+                  height={props.height}
+                  fill={props.borderColor}
+                  fillOpacity={0.2}
+              />
+              <text
+                  x={props.width - 16}
+                  y={props.height / 2 - 8}
+                  textAnchor="end"
+                  dominantBaseline="central"
+                  fill="white"
+                  style={{
+                      fontWeight: 900,
+                      fontSize: 15,
+                  }}
+              >
+                  {props.data.indexValue}
+              </text>
+              <text
+                  x={props.width - 16}
+                  y={props.height / 2 + 10}
+                  textAnchor="end"
+                  dominantBaseline="central"
+                  fill="white"
+                  style={{
+                      fontWeight: 400,
+                      fontSize: 13,
+                  }}
+              >
+                  {props.data.value}
+              </text>
+          </g>
+      )
+  }
+  
     render() {
         
         return ( 
@@ -100,23 +148,21 @@ class BarChart extends Component {
                 indexBy="skill"
                 margin={{ top: 0, right: 130, bottom: 50, left: 70 }}
                 padding={0.19}
-                layout="horizontal"
+                layout="horizontal"              
                 colors = {this.state.currentData.map(c => c.color)}
                 colorBy = "index"
                 borderColor={{ from: 'color', modifiers: [ [ 'darker', 1.6 ] ] }}
                 borderWidth={1}
+                barComponent={this.BarComponent}
                 axisTop={null}
                 axisRight={null}
                 axisBottom={null}
-                axisLeft={{
-                    tickSize: 7,
-                    tickPadding: 7,
-                    tickRotation: -10,
-                }}
+                axisLeft={null}
                 labelTextColor="#f6f6ef"
+                isInteractive={false}
                 labelSkipWidth={12}
                 labelSkipHeight={12}
-                animate={true}
+                animate={false}
                 motionStiffness={90}
                 motionDamping={15}
             />

@@ -15,22 +15,22 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const all_about_cards_info = [
     {
         title:"Reactive",
-        subtext: "subtext explaining more",
+        subtext: "Interactive experience that is responsive and fast.",
         image: mdiReact
     },
     {
-        title:"Intutive",
-        subtext: "subtext explaining more",
+        title:"Intuitive",
+        subtext: "Geared towards the way people work and think.",
         image: mdiBrain
     },
     {
-        title:"Database",
-        subtext: "subtext explaining more",
+        title:"Intergration",
+        subtext: "Creating systems that interact seamlessly.",
         image: mdiDatabase
     },
     {
         title:"Adaptive",
-        subtext: "subtext explaining more",
+        subtext: "Designed with all devices in mind.",
         image: mdiResponsive
     },
 ];
