@@ -16,7 +16,7 @@ class StickyNavbar extends Component {
         const pageItemElement = document.getElementById(item);
         const navItemElement = document.getElementById("navbar_" + item);
         const page_position = pageItemElement.getBoundingClientRect().top;
-        if(-20 <= page_position && page_position <= 20 ){
+        if(-50 <= page_position && page_position <= 150 ){
             navItemElement.classList.add("active");
             this.setState({currently_active: item});
         }
