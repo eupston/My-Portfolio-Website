@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import classes from './About.module.css';
 import Barchart from '../Barchart/Barchart';
 import Image from 'react-bootstrap/Image';
 import ProfilePic from "../../assets/images/profile_pic.png";
 import Aboutcard from './Aboutcard/Aboutcard';
+import AboutModal from './AboutModal/AboutModal';
 
 import { mdiDatabase } from '@mdi/js';
 import { mdiResponsive } from '@mdi/js';
@@ -40,6 +41,12 @@ const all_about_cards = all_about_cards_info.map(card => {
 });
 
 const About = () => {
+    const [showSelfTaughtModal, setShowSelfTaughtModal] = useState(false);
+
+    const handleHideSelfTaughtModal = () => {
+        setShowSelfTaughtModal(false);
+    };
+
     return ( 
         <div className={classes.About} id="about" >
             <ScrollAnimation animateIn="slideInRight" duration="1.1" animateOnce>
@@ -56,10 +63,11 @@ const About = () => {
                     <Image src={ProfilePic} roundedCircle fluid />
                     <div style={{margin:'20px'}}>
                     <h4><strong>Eugene Upston</strong></h4>
-                    <p> is a driven <a style={{color:"#b25364"}}>self-taught</a> programmer 
+                    <p> is a driven <a style={{color:"#b25364"}} onClick={() => setShowSelfTaughtModal(true)} >self-taught</a> programmer
                     currently working as a Software Pipeline Developer for
                     an AI company <a href="https://www.soulmachines.com/" alt="" style={{color:"#b25364"}}>Soul Machines.</a></p>
                     </div>
+                    {showSelfTaughtModal ? <AboutModal show={showSelfTaughtModal} onHide={handleHideSelfTaughtModal}/> : null }
                 </div>
                 <Barchart/>
             </div>

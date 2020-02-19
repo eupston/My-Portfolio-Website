@@ -8,8 +8,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 class App extends Component {
-  state = {  }
-  render() { 
+  render() {
     return ( 
       <div className="App">
         <Header/>

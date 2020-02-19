@@ -7,20 +7,14 @@ import './Barchart.css';
 class BarChart extends Component {
   backend_skills = [
     {
-      "skill": "Spring",
+      "skill": "Springboot",
       "value": 85,
       "color": "#b25364"
     },
     {
-      "skill": "SQL",
+      "skill": "SQL/NoSQL",
       "value": 75,
       "color": "#b25364"
-    },
-    {
-      "skill": "C++",
-      "value": 70,
-      "color": "#b25364"
-
     },
     {
       "skill": "Java",
@@ -32,7 +26,13 @@ class BarChart extends Component {
       "skill": "Python",
       "value": 95,
       "color": "#b25364"
+    },
+    {
+      "skill": "Node/Express",
+      "value": 80,
+      "color": "#b25364"
     }
+
   ]
 
   frontend_skills = [
