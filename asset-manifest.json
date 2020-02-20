@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.299b5836.chunk.css",
-    "main.js": "/Portfolio/static/js/main.61d2d252.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.61d2d252.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0cc28ae0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.64ce9b32.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.64ce9b32.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.8dc3805d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8dc3805d.js.map",
     "static/css/2.c1e42f80.chunk.css": "/Portfolio/static/css/2.c1e42f80.chunk.css",
-    "static/js/2.0afe3e49.chunk.js": "/Portfolio/static/js/2.0afe3e49.chunk.js",
-    "static/js/2.0afe3e49.chunk.js.map": "/Portfolio/static/js/2.0afe3e49.chunk.js.map",
+    "static/js/2.e6c2de88.chunk.js": "/Portfolio/static/js/2.e6c2de88.chunk.js",
+    "static/js/2.e6c2de88.chunk.js.map": "/Portfolio/static/js/2.e6c2de88.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.fee24e65bf752f5a65fda1cda9267b75.js": "/Portfolio/precache-manifest.fee24e65bf752f5a65fda1cda9267b75.js",
+    "precache-manifest.595cf7ff6d2cd42f0c27855ffc156bf1.js": "/Portfolio/precache-manifest.595cf7ff6d2cd42f0c27855ffc156bf1.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.c1e42f80.chunk.css.map": "/Portfolio/static/css/2.c1e42f80.chunk.css.map",
-    "static/css/main.299b5836.chunk.css.map": "/Portfolio/static/css/main.299b5836.chunk.css.map",
-    "static/js/2.0afe3e49.chunk.js.LICENSE": "/Portfolio/static/js/2.0afe3e49.chunk.js.LICENSE",
+    "static/css/main.0cc28ae0.chunk.css.map": "/Portfolio/static/css/main.0cc28ae0.chunk.css.map",
+    "static/js/2.e6c2de88.chunk.js.LICENSE": "/Portfolio/static/js/2.e6c2de88.chunk.js.LICENSE",
     "static/media/Deepbox_img_1.png": "/Portfolio/static/media/Deepbox_img_1.05177358.png",
     "static/media/mdb.css": "/Portfolio/static/media/arrow_right.8ef6a08c.svg",
     "static/media/Header.css": "/Portfolio/static/media/cyberpunk7.b19ffbe2.gif",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.8dc3805d.js",
     "static/css/2.c1e42f80.chunk.css",
-    "static/js/2.0afe3e49.chunk.js",
-    "static/css/main.299b5836.chunk.css",
-    "static/js/main.61d2d252.chunk.js"
+    "static/js/2.e6c2de88.chunk.js",
+    "static/css/main.0cc28ae0.chunk.css",
+    "static/js/main.64ce9b32.chunk.js"
   ]
 }
