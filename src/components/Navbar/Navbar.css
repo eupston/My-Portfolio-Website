@@ -31,4 +31,52 @@
   opacity: 0.9;
 }
 
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #132d67;
+    z-index: 100;
+    border-bottom: 2px solid #b25364;
+}
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+    background-color: #4c6ca2;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    display: block;
+}
+
+.topnav a::selection {
+    color: none;
+    background: none;
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    color: white;
+    display: flex;
+    left: 0;
+    top: 0;
+    margin-left:10px;
+
+}
+
+.topnav a.icon:hover {
+    color: #b25364;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    /* background-color: #b25364; */
+    color: #b25364;
+}
