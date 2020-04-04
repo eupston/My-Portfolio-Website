@@ -4,15 +4,28 @@ import PortfolioCard from './PortfolioCard/PortfolioCard';
 import deepbeat_img from '../../assets/images/projects/deepbeat_interface.png';
 import deepbox_img from '../../assets/images/projects/Deepbox_img_1.png';
 import spotistics_img from '../../assets/images/projects/spotistics_screenshot.png';
-import deepbox_gif from '../../assets/gifs/deepbox_gif.gif';
-import deepbeat_gif from '../../assets/gifs/deepbeat_gif.gif';
-import spotistics_gif from '../../assets/gifs/spotistics_gif.gif';
+import eidos_img from '../../assets/images/projects/eidos_website-2.png';
+import deepbox_gif from '../../assets/gifs/deepbox_gif2.gif';
+import deepbeat_gif from '../../assets/gifs/deepbeat_gif2.gif';
+import spotistics_gif from '../../assets/gifs/spotistics_gif2.gif';
+import eidos_gif from '../../assets/gifs/eidos-gif2.gif';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
 const portfolioCards = {
+
+    eidos: {
+        projectName: 'Eidos Jewelry',
+        languages: 'React/Node',
+        image: eidos_img,
+        modal_image: eidos_gif,
+        description: "Eidos Contemporary Jewelry Web App is an e-commerce site that is linked in with Shopify's API. Features include Customer & Product management, instagram feed, Email notification, and site navigation.",
+        tech_stack: ["React", "Node js", "Express", "MongoDB", "Heroku"],
+        github:"https://github.com/eupston/eidos_contemporary_website",
+        website: "https://eidos-contemporary.herokuapp.com/"
+    },
     deepbeat: {
         projectName: 'Deepbeat',
         languages: 'Python/Tensorflow',
@@ -59,6 +72,9 @@ const Portfolio = () => {
                 <h1>Portfolio</h1>
             </ScrollAnimation>
             <div className={classes.PortfolioGrid} >
+                <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
+                    <PortfolioCard projectInfo={portfolioCards.eidos}/>
+                </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
                   <PortfolioCard projectInfo={portfolioCards.deepbeat}/>
                 </ScrollAnimation>

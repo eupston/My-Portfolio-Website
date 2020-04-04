@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './Contact.module.css';
 import Button from 'react-bootstrap/Button';
 import ScrollAnimation from "react-animate-on-scroll";
-
 const Contact = () => {
     return (
         <div className={classes.Contact} id="contact" >
@@ -15,10 +14,11 @@ const Contact = () => {
                     <input placeholder="Email" type="email" name="email" required/>
                     <textarea rows="8" cols="50" placeholder="Your Message"></textarea>
                 </div>
-                <Button variant="outline-light">Submit</Button>
+                <Button type="submit" variant="outline-light">Submit</Button>
             </div>
         </div>
      );
 }
  
 export default Contact;
+

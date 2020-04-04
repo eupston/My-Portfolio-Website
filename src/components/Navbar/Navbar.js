@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import './Navbar.css'
-import NavbarMobile from './NavbarMobile/NavbarMobile';
 
 class StickyNavbar extends Component {
 
