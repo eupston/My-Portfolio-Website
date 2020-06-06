@@ -48,8 +48,8 @@ class PortfolioCard extends Component {
                     </Button>
                 </React.Fragment>
                 : 
-                <Image src={this.props.projectInfo.image} className={classes.Image} fluid />
-                }
+                <img src={this.props.projectInfo.image} className={classes.Image}/>
+                    }
                 { this.state.learnMore ? 
                     <PortfolioModal 
                     projectInfo={this.props.projectInfo} 

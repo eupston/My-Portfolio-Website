@@ -5,10 +5,14 @@ import deepbeat_img from '../../assets/images/projects/deepbeat_interface.png';
 import deepbox_img from '../../assets/images/projects/Deepbox_img_1.png';
 import spotistics_img from '../../assets/images/projects/spotistics_screenshot.png';
 import eidos_img from '../../assets/images/projects/eidos_website-2.png';
+import midimason_img from '../../assets/images/projects/midi_mason_logo_gray_bk.png';
+import poly_seq_img from '../../assets/images/projects/polysequencer_img.png';
 import deepbox_gif from '../../assets/gifs/deepbox_gif2.gif';
 import deepbeat_gif from '../../assets/gifs/deepbeat_gif2.gif';
 import spotistics_gif from '../../assets/gifs/spotistics_gif2.gif';
 import eidos_gif from '../../assets/gifs/eidos-gif2.gif';
+import poly_seq_gif from '../../assets/gifs/poly_seq.gif';
+import midi_mason_gif from '../../assets/gifs/midi_mason.gif';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -16,9 +20,20 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const portfolioCards = {
 
+    midimason: {
+        projectName: 'Midi Mason',
+        languages: 'React/Node js',
+        image: midimason_img,
+        modal_image: midi_mason_gif,
+        description: "A Web Application for generating midi drums using Google Magenta AI, creating, saving, downloading and sharing beats.",
+        tech_stack: ["React", "Node js", "S3", "Express", "MongoDB", "Python", "Heroku"],
+        github:"https://github.com/eupston/midi-mason",
+        website: "https://midi-mason.herokuapp.com/"
+    },
+
     eidos: {
         projectName: 'Eidos Jewelry',
-        languages: 'React/Node',
+        languages: 'React/Node js',
         image: eidos_img,
         modal_image: eidos_gif,
         description: "Eidos Contemporary Jewelry Web App is an e-commerce site that is linked in with Shopify's API. Features include Customer & Product management, instagram feed, Email notification, and site navigation.",
@@ -62,16 +77,31 @@ const portfolioCards = {
             ],
         github:"https://github.com/eupston/Spotistics",
         website: "https://spotistics.herokuapp.com/"
+    },
+
+    polysequencer: {
+        projectName: 'Polysequencer',
+        languages: 'Max/Msp',
+        image: poly_seq_img,
+        modal_image: poly_seq_gif,
+        description: "Polysequencer is a Polyphonic Sequencer plugin with 3 Voices per step and much more! I've created it to intuitively generate musical sequences and be able to quickly build up complex and interesting modal relationships.\n",
+        tech_stack: ['Max/Msp'],
+        youtube:"https://www.youtube.com/watch?v=qvLbqua9Rlc&t=233s",
+        website: "http://maxforlive.com/library/device/4674/polysequencer"
     }
 }
 
 const Portfolio = () => {
+
     return (
         <div className={classes.Portfolio} id='portfolio'>
             <ScrollAnimation animateIn="slideInRight" duration="1.1" animateOnce>
                 <h1>Portfolio</h1>
             </ScrollAnimation>
             <div className={classes.PortfolioGrid} >
+                <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
+                    <PortfolioCard projectInfo={portfolioCards.midimason}/>
+                </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
                     <PortfolioCard projectInfo={portfolioCards.eidos}/>
                 </ScrollAnimation>
@@ -84,7 +114,9 @@ const Portfolio = () => {
                 <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
                   <PortfolioCard projectInfo={portfolioCards.spotistics}/>
                 </ScrollAnimation>
-
+                <ScrollAnimation animateIn="fadeIn" duration="2" animateOnce>
+                    <PortfolioCard projectInfo={portfolioCards.polysequencer}/>
+                </ScrollAnimation>
             </div>
         </div>
 
