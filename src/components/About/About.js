@@ -65,7 +65,7 @@ const About = () => {
                     <h4><strong>Eugene Upston</strong></h4>
                     <p> is a driven <a style={{color:"#b25364"}} onClick={() => setShowSelfTaughtModal(true)} >self-taught</a> programmer
                     currently working as a Software Test Engineer for
-                    an DJ company <a href="https://www.inmusicbrands.com/" alt="" style={{color:"#b25364"}}>inMusic.</a></p>
+                    a DJ company <a href="https://www.inmusicbrands.com/" alt="" style={{color:"#b25364"}}>inMusic.</a></p>
                     </div>
                     {showSelfTaughtModal ? <AboutModal show={showSelfTaughtModal} onHide={handleHideSelfTaughtModal}/> : null }
                 </div>
