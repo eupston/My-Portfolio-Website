@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@mdi/react": "^1.2.1",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^5.0.0"
   },
   "homepage": "https://eupston.github.io/Portfolio"
 }
